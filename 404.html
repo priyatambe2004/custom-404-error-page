@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#e6e1ff">
+  <title>404 – Page Not Found</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sky" aria-hidden="true">
+    <span class="cloud c1"></span>
+    <span class="cloud c2"></span>
+    <span class="cloud c3"></span>
+
+    <div class="plane-wrap">
+      <span class="trail"></span>
+      <svg class="plane" viewBox="0 0 64 40">
+        <path d="M2 20 L62 2 L40 38 L30 24 Z" fill="#ffffff"/>
+        <path d="M30 24 L62 2 L24 27 Z" fill="#d9d2ff"/>
+        <path d="M30 24 L40 38 L34 26 Z" fill="#c4baf7"/>
+      </svg>
+    </div>
+
+    <span class="spark" style="--x:9%;  --y:16%; --s:1.1; --d:0s">✦</span>
+    <span class="spark" style="--x:83%; --y:12%; --s:1.4; --d:-1s">✦</span>
+    <span class="spark" style="--x:72%; --y:46%; --s:.8;  --d:-2s">✦</span>
+    <span class="spark" style="--x:16%; --y:58%; --s:1;   --d:-1.5s">✦</span>
+    <span class="spark" style="--x:91%; --y:68%; --s:1.2; --d:-.5s">✦</span>
+    <span class="spark" style="--x:46%; --y:8%;  --s:.9;  --d:-2.5s">✦</span>
+  </div>
+
+  <main class="page">
+    <div class="content">
+
+      <p class="chip reveal" style="--d:0">Error 404 · Page not found</p>
+
+      <!-- The big "404": the zero is a friendly sun -->
+      <h1 class="code reveal" style="--d:1" aria-label="404">
+        <span aria-hidden="true">4</span>
+        <svg class="sun" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <radialGradient id="face" cx="40%" cy="35%" r="75%">
+              <stop offset="0" stop-color="#fff0a8"/>
+              <stop offset="55%" stop-color="#ffc93c"/>
+              <stop offset="100%" stop-color="#ff9f1c"/>
+            </radialGradient>
+          </defs>
+          <g class="rays" fill="#ffb627">
+            <rect x="94" y="2"   width="12" height="30" rx="6"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(30 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(60 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(90 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(120 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(150 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(180 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(210 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(240 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(270 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(300 100 100)"/>
+            <rect x="94" y="2"   width="12" height="30" rx="6" transform="rotate(330 100 100)"/>
+          </g>
+          <circle cx="100" cy="100" r="58" fill="url(#face)"/>
+          <ellipse class="eye" cx="80" cy="92" rx="7" ry="10" fill="#3b2a1a"/>
+          <ellipse class="eye" cx="120" cy="92" rx="7" ry="10" fill="#3b2a1a"/>
+          <circle cx="83" cy="88" r="2.6" fill="#fff"/>
+          <circle cx="123" cy="88" r="2.6" fill="#fff"/>
+          <ellipse cx="66" cy="112" rx="10" ry="6" fill="#ff7a59" opacity=".45"/>
+          <ellipse cx="134" cy="112" rx="10" ry="6" fill="#ff7a59" opacity=".45"/>
+          <ellipse cx="100" cy="118" rx="8" ry="10" fill="#7a2e1d"/>
+          <ellipse cx="100" cy="122" rx="4.5" ry="4" fill="#ff8c78"/>
+        </svg>
+        <span aria-hidden="true">4</span>
+      </h1>
+
+      <h2 class="title reveal" style="--d:2">Oops! This page took a day off.</h2>
+      <p class="text reveal" style="--d:3">
+        We looked everywhere, but the page you wanted isn't here. It may have moved,
+        been renamed, or the link might have a small typo. Let's get you back on track.
+      </p>
+
+      <div class="buttons reveal" style="--d:4">
+        <!-- Deployed on a server? Change index.html to / -->
+        <a class="btn primary" href="index.html"><span aria-hidden="true">🏠</span> Back to homepage <span class="arrow" aria-hidden="true">→</span></a>
+        <a class="btn ghost" href="index.html#contact">Need help? Contact us</a>
+      </div>
+
+      <section class="help reveal" style="--d:5" aria-labelledby="help-title">
+        <h3 id="help-title">Or visit one of these pages</h3>
+        <ul class="cards">
+          <!-- Change these links to your own pages -->
+          <li><a class="card" href="index.html"><span class="emoji" aria-hidden="true">🏠</span><strong>Home</strong><small>Start from the beginning</small></a></li>
+          <li><a class="card" href="index.html#about"><span class="emoji" aria-hidden="true">👋</span><strong>About</strong><small>Who we are</small></a></li>
+          <li><a class="card" href="index.html#projects"><span class="emoji" aria-hidden="true">🚀</span><strong>Projects</strong><small>See our work</small></a></li>
+          <li><a class="card" href="index.html#contact"><span class="emoji" aria-hidden="true">💌</span><strong>Contact</strong><small>Say hello</small></a></li>
+        </ul>
+       
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Soft hills at the bottom for depth -->
+  <svg class="hills" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 120 C200 40 360 40 560 110 C760 180 900 60 1120 70 C1260 76 1360 120 1440 100 L1440 220 L0 220 Z" fill="#d9d2ff"/>
+    <path d="M0 160 C180 110 340 110 520 150 C720 195 880 120 1080 135 C1240 148 1360 170 1440 150 L1440 220 L0 220 Z" fill="#c4baf7"/>
+    <path d="M0 195 C240 165 420 170 640 190 C860 210 1100 170 1440 190 L1440 220 L0 220 Z" fill="#a99cf0"/>
+  </svg>
+
+</body>
+</html>

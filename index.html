@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f7ff">
+  <meta name="description" content="Explore Lumio, a modern and creative web design demo featuring a custom 404 error page.">
+  <title>Lumio — Creative Web Experience</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="top" id="top">
+    <a class="brand" href="#home" aria-label="Lumio home">
+      <span class="brand-icon">✦</span> lumio<span class="brand-dot">.</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle"
+        type="button" aria-label="Switch to dark mode" title="Toggle theme">
+        <span id="themeIcon">☾</span>
+      </button>
+
+      <a class="nav-cta" href="#projects">Explore <span>↗</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        type="button" aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="hero-content reveal">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          A little corner of creativity
+        </div>
+
+        <p class="eyebrow">DESIGNED WITH PURPOSE. BUILT WITH CURIOSITY.</p>
+
+        <h1>Ideas become<br>
+          <span class="gradient-text">experiences.</span>
+        </h1>
+
+        <p class="hero-description">
+          Welcome to Lumio — a modern web experience where thoughtful
+          design meets simple, meaningful interactions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">
+            Explore the experience <span>↗</span>
+          </a>
+          <a class="btn btn-secondary" href="404.html">
+            Meet the 404 page <span>→</span>
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <span>Creative design · Responsive layouts · Smooth interactions</span>
+        </div>
+      </div>
+
+      <!-- Decorative preview card -->
+      <div class="hero-visual reveal">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+
+        <div class="preview-card">
+          <div class="preview-top">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="preview-label">THE LUMIO EXPERIENCE</span>
+          </div>
+
+          <div class="preview-body">
+            <div class="preview-symbol">✦</div>
+            <p class="preview-small">A DIFFERENT WAY TO EXPLORE</p>
+            <h2>Oops! Lost<br>in the universe?</h2>
+            <p class="preview-copy">
+              Every wrong turn can lead to something beautiful.
+            </p>
+            <a href="404.html" class="preview-link">
+              Discover the 404 page <span>↗</span>
+            </a>
+          </div>
+
+          <div class="preview-footer">
+            <span>CREATIVE BY DESIGN</span>
+            <span>01 / 02</span>
+          </div>
+        </div>
+
+        <div class="floating-chip chip-top">
+          <span class="chip-icon">✳</span>
+          <span>Made to explore</span>
+        </div>
+
+        <div class="floating-chip chip-bottom">
+          <span class="chip-check">✓</span>
+          <span>Responsive by design</span>
+        </div>
+
+        <div class="decor decor-star">✦</div>
+        <div class="decor decor-plus">+</div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span class="scroll-mouse"></span>
+        Scroll to explore
+      </a>
+    </section>
+
+    <!-- Feature strip -->
+    <section class="feature-strip" aria-label="Design highlights">
+      <div class="feature-item">
+        <span class="feature-icon">✳</span>
+        <div>
+          <h3>Thoughtful design</h3>
+          <p>Every detail has a purpose.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <span class="feature-icon">⌘</span>
+        <div>
+          <h3>Interactive elements</h3>
+          <p>Small details, better experiences.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <span class="feature-icon">↗</span>
+        <div>
+          <h3>Responsive layouts</h3>
+          <p>Designed for every screen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A LITTLE ABOUT LUMIO</p>
+        <h2>Simple on the surface.<br>
+          <span class="gradient-text">Thoughtful underneath.</span>
+        </h2>
+        <p>
+          Lumio is a creative homepage concept built to demonstrate
+          how clean design, accessible navigation and subtle interactions
+          can make even a small website feel special.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="info-card reveal">
+          <div class="info-number">01</div>
+          <div class="info-icon purple-icon">◇</div>
+          <h3>Clean & modern</h3>
+          <p>
+            A balanced layout, soft gradients and clear typography
+            keep the experience polished without unnecessary clutter.
+          </p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="info-number">02</div>
+          <div class="info-icon pink-icon">✳</div>
+          <h3>Made interactive</h3>
+          <p>
+            Explore animated elements, a mobile menu, a theme switcher
+            and smooth transitions throughout the page.
+          </p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="info-number">03</div>
+          <div class="info-icon orange-icon">⌘</div>
+          <h3>Built to adapt</h3>
+          <p>
+            Flexible layouts and mobile-friendly navigation help the
+            page look great across different screen sizes.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="projects-heading reveal">
+        <div>
+          <p class="eyebrow">THE SHOWCASE</p>
+          <h2>A closer look at <span class="gradient-text">Lumio.</span></h2>
+          <p>Explore the pages and ideas behind this little web experience.</p>
+        </div>
+        <span class="project-count">02 CONCEPTS</span>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-art art-home">
+            <div class="art-window">
+              <div class="art-window-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="art-home-content">
+                <span class="art-kicker">WELCOME TO LUMIO</span>
+                <div class="art-title">Make room<br>for ideas.</div>
+                <div class="art-button"></div>
+                <div class="art-shape shape-one"></div>
+                <div class="art-shape shape-two"></div>
+              </div>
+            </div>
+            <span class="art-tag">01 / HOMEPAGE</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Web design</span><span>Responsive UI</span>
+            </div>
+            <h3>The Lumio Homepage</h3>
+            <p>
+              A welcoming landing page featuring a modern layout,
+              soft gradients and interactive details.
+            </p>
+            <a class="project-link" href="#home">
+              Explore homepage <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-error">
+            <div class="error-stars">✦ <span>·</span> ✧</div>
+            <div class="error-number">404</div>
+            <div class="error-caption">LOST IN SPACE?</div>
+            <div class="error-planet"></div>
+            <div class="error-ring"></div>
+            <span class="art-tag">02 / ERROR PAGE</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>Creative UI</span><span>Error handling</span>
+            </div>
+            <h3>Lost in the Universe</h3>
+            <p>
+              A playful custom 404 page that turns a broken link into
+              a friendly, memorable experience.
+            </p>
+            <a class="project-link" href="404.html">
+              Preview 404 page <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="contact-section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="contact-content reveal">
+        <span class="contact-sparkle">✦</span>
+        <p class="eyebrow">THANKS FOR STOPPING BY</p>
+        <h2>Good design makes<br>you <span>feel something.</span></h2>
+        <p>
+          This is just the beginning. Keep exploring, keep creating
+          and turn your next idea into something real.
+        </p>
+        <a class="btn contact-btn" href="#home">
+          Back to the beginning <span>↑</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-icon">✦</span> lumio<span class="brand-dot">.</span>
+    </a>
+
+    <p>Designed with curiosity and a little creativity.</p>
+
+    <a href="#top" class="footer-top">Back to top ↑</a>
+
+    <div class="footer-bottom">
+      <span>© <span id="currentYear"></span> Lumio. All rights reserved.</span>
+      <span>Made for the curious.</span>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top"
+    type="button" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("nav-open");
+      menuToggle.classList.toggle("menu-open", isOpen);
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+    });
+
+    document.querySelectorAll(".nav-link").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("nav-open");
+        menuToggle.classList.remove("menu-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+      });
+    });
+
+    // Light / dark theme with saved preference
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+
+    function setTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      const isDark = theme === "dark";
+      themeIcon.textContent = isDark ? "☀" : "☾";
+      themeToggle.setAttribute(
+        "aria-label",
+        isDark ? "Switch to light mode" : "Switch to dark mode"
+      );
+
+      try {
+        localStorage.setItem("lumio-theme", theme);
+      } catch (error) {
+        // Theme still works if browser storage is unavailable.
+      }
+    }
+
+    let savedTheme = "light";
+    try {
+      savedTheme = localStorage.getItem("lumio-theme") || "light";
+    } catch (error) {
+      savedTheme = "light";
+    }
+
+    setTheme(savedTheme);
+
+    themeToggle.addEventListener("click", () => {
+      const currentTheme = document.documentElement.dataset.theme;
+      setTheme(currentTheme === "dark" ? "light" : "dark");
+    });
+
+    // Reveal sections when they enter the viewport
+    const revealElements = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      revealElements.forEach(element => observer.observe(element));
+    } else {
+      revealElements.forEach(element => element.classList.add("revealed"));
+    }
+
+    // Back-to-top button
+    const backToTop = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      backToTop.classList.toggle("show", window.scrollY > 450);
+    }, { passive: true });
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    // Highlight the current section in the navigation
+    const sections = document.querySelectorAll("main section[id]");
+    const navItems = document.querySelectorAll(".nav-link");
+
+    if ("IntersectionObserver" in window) {
+      const sectionObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navItems.forEach(link => {
+              link.classList.toggle(
+                "active",
+                link.getAttribute("href") === "#" + entry.target.id
+              );
+            });
+          }
+        });
+      }, { rootMargin: "-30% 0px -55% 0px" });
+
+      sections.forEach(section => sectionObserver.observe(section));
+    }
+
+    // Dynamic copyright year
+    document.getElementById("currentYear").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
